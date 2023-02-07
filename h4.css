@@ -1,0 +1,148 @@
+.table{
+    display: grid;
+    border: 1px solid BLACK;
+    background-color:  whitesmoke;
+    gap: 10px;
+}
+.text1{
+   text-align: center;
+   grid-column-start: 1;
+   grid-column-end: 5;
+   background-color:red;
+   font: bold;
+   padding: 10px;
+}
+.text2{
+    background-color: olivedrab;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.text3{
+    background-color: skyblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.text4{
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.text5{
+    background-color: rgb(255, 85, 0);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.text6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: black;
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 20px;
+
+}
+
+h3{
+font: bold;
+text-align: center;
+background-color:hsl(178, 100%, 50%) ;
+padding: 10px;
+font-size: 20px;
+}
+.head{
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red,orange,green,yellow);
+    text-align: center;
+    color: white;
+}
+.div2{
+    border: 7px solid red;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+    margin-bottom: 10px;
+}
+.centercontent{
+    border: 2px solid red;
+    display: flex;
+    height: 210px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: skyblue;
+}
+.flexitem{
+    border: 2px solid red;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.div3{
+    margin-top: 20px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red,orange,green,yellow);
+    text-align: center;
+    color: white; 
+    padding-bottom: 10px;
+}
+.container{
+margin-top: 30PX;
+display: grid;
+grid-template-columns: auto auto auto auto;
+border: 10px solid green;
+background-image: linear-gradient(to right, red,blue,yellow);
+}
+
+.item{
+border: 5px solid red;
+background-color: yellow;
+height: 200px;
+text-align: center;
+margin: 100px;
+border-radius: 20px;
+text-decoration: underline;
+font-weight: bold;
+color: brown;
+line-height: 50PX;
+}
+
+.grid-container {
+    display: grid;
+    background-color:white;
+    padding: 10px;
+  }
+
+.box3 {
+    background-color: maroon;
+    grid-row:start;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.h3{
+    font:bold;
+    background-color: aqua;
+    padding: 10px;
+    font-size: 10px;
+}
